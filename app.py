@@ -5,8 +5,8 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 # load in the csv files for the recommender system
-model_df = pd.read_csv('./Data/model_df.csv', index_col='jw_entity_id')
-lookup_table = pd.read_csv('./Data/lookup_table.csv', index_col='jw_entity_id')
+model_df = pd.read_csv('./data/model_df.csv', index_col='jw_entity_id')
+lookup_table = pd.read_csv('./data/lookup_table.csv', index_col='jw_entity_id')
 # change column types from float to int
 lookup_table['release_year'] = lookup_table['release_year'].astype(int)
 lookup_table['seasons'] = lookup_table['seasons'].astype(int)
@@ -67,7 +67,7 @@ def preference_cosine_rec(model_df, title, num_recs, type_pref, genre_pref):
 st.set_page_config(layout="centered")
 
 # Image of Crunchyroll logo
-st.image('./Images/Crunchyroll-logo.jpg')
+st.image('./images/Crunchyroll-logo.jpg')
 
 # Title of the page
 st.write('# Anime Recommender App')
