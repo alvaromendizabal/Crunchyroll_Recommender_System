@@ -37,7 +37,6 @@ For the final part of the project, I deployed my recommendation system through a
 
 Below is a demonstration of the web application and shows 3 examples of how it can be used. For the first example, I am entering One Piece for the title and 4 recommendations. The output is a table with the title, type of content, the year it was released, and the number of seasons for the shows or movies similar to One Piece. Next it will demonstrate more of the user preferences and enter Attack on Titan, shows, and the Crime genre. You can see from the table it is recommending Crime shows that are most similar to Attack on Titan. Finally, to show more of the user preferences it will enter in Berserk, shows, and Comedies. The application will return Comedies that are most similar to the show Berserk.
 
-[![Watch the app demo](https://img.youtube.com/vi/wnjlOsq_99w/.jpg)](https://youtu.be/wnjlOsq_99w)
 [app_crunchyroll_recommender_system_demo](https://youtu.be/wnjlOsq_99w)
 
 ## Conclusion
